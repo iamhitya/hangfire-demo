@@ -1,0 +1,18 @@
+@Scheduler.Api_HostAddress = https://localhost:7273
+
+
+GET {{Scheduler.Api_HostAddress}}/api/job-schedulers/continuations-job
+
+###
+
+GET {{Scheduler.Api_HostAddress}}/api/job-schedulers/delayed-job
+
+###
+
+GET {{Scheduler.Api_HostAddress}}/api/job-schedulers/fire-and-forget-job
+
+###
+
+GET {{Scheduler.Api_HostAddress}}/api/job-schedulers/recurring-job
+
+###
